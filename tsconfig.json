@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES6",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./src", // Facilita o uso de paths relativos
+    "paths": {
+      "@models/*": [
+        "models/*"
+      ], // Alias para pastas
+      "@services/*": [
+        "services/*"
+      ]
+    }
+  }
+}
